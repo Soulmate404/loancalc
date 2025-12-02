@@ -1,0 +1,80 @@
+{
+  "fee": {
+    "id": 0,
+    "schedule_id": 0,
+    "name": "",
+    "rate": "0",
+    "fix": "0",
+    "status": ""
+  },
+  "loan_extra": {
+    "id": 0,
+    "user_id": 0,
+    "principal": "0",
+    "total_periods": 0,
+    "product": null,
+    "created_at": "0001-01-01T00:00:00Z",
+    "statue": "",
+    "schedules": [],
+    "repayments": [],
+    "overdue_records": []
+  },
+  "overdue_record": {
+    "id": 0,
+    "loan_id": 0,
+    "period": 0,
+    "start_date": "0001-01-01T00:00:00Z",
+    "days_over": 0,
+    "penalty_accrued": "0",
+    "penalty_paid": "0",
+    "rate": "0",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "statue": ""
+  },
+  "product": {
+    "id": 0,
+    "name": "",
+    "interest": "0",
+    "min_principle": "0",
+    "max_principle": "0",
+    "min_periods": 0,
+    "max_periods": 0,
+    "repay_type": "",
+    "roll_convention": "",
+    "day_count_conv": "",
+    "period_type": "",
+    "grace_term": 0,
+    "grace_day": 0,
+    "penalty": "0",
+    "default_rate": "0",
+    "fees": [],
+    "info": "",
+    "extra": "",
+    "statues": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z"
+  },
+  "repayment": {
+    "id": 0,
+    "loan_id": 0,
+    "repay_at": "0001-01-01T00:00:00Z",
+    "total_amount": "0",
+    "status": "",
+    "refund_amount": "0",
+    "extra": ""
+  },
+  "schedule": {
+    "id": 0,
+    "loan_id": 0,
+    "period": 0,
+    "due_date": "0001-01-01T00:00:00Z",
+    "principal": "0",
+    "interest": "0",
+    "service_fee": [],
+    "total_payment": "0",
+    "total_payment_paid": "0",
+    "status": "",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "overdue": false
+  }
+}
